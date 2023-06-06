@@ -1,0 +1,62 @@
+.edit-form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.edit-heading{
+    font-family: "Open Sans";
+    font-size: 36px;
+    width: 80%;
+    color: #785569;
+}
+
+.input-field-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.text-input{
+    padding: 7px;
+    outline: none;
+    border: #c4c4c2 solid 1px;
+    border-radius: 5px;
+    margin-top: 6px;
+    font-size: 17px;
+    font-family: "Roboto";
+}
+.label{
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.update-btn-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px; 
+}
+.update-btn{
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #267af0;
+    border-radius: 5px;
+    color: #ffffff;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    padding: 7px 15px 7px 15px;
+    margin-left: 20px;
+}
+.success-icon{
+    color: #26ad5a;
+    font-size: 30px;
+    margin-top: 5px;
+}

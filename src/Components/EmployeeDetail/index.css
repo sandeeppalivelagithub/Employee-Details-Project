@@ -1,0 +1,120 @@
+.employeeDetail-list-container{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: #dbdad7 solid 1px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+    min-width: 300px;
+    width: 90%;
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .employeeDetail-list-container{
+        width: 320px;
+    }
+}
+
+.edit-btn{
+    cursor: pointer;
+    font-family: "Open Sans";
+    background-color: transparent;
+    border: #4b58de solid 2px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 17px;
+    color: #4b58de;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.delete-btn{
+    cursor: pointer;
+    font-family: "Open Sans";
+    background-color: transparent;
+    border: #f02648 solid 2px;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font-size: 17px;
+    color: #f02648;
+    font-weight: 600;
+    
+}
+
+.profile-container {
+    padding: 15px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-details-container{
+    display: flex;
+    align-items: flex-start;
+}
+.employee-details-container{
+    margin-left: 20px;
+    display: flex;
+    margin-top: 0;
+    padding-top: 0;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.name{
+    font-family: "Roboto";
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+.role{
+    margin-top: 3px;
+    font-style: oblique;
+    font-family: "Open Sans";
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.email{
+    margin-top: 3px;
+    font-style: oblique;
+    margin-bottom: 0;
+}
+.salary{
+    margin-top: 3px;
+    font-style: oblique;
+    margin-bottom: 0;
+}
+.buttons-container{
+    align-self: flex-end;
+    margin-top: 20px;
+    
+}
+
+.bisket-color{
+    background-color: #d1c5a5;
+}
+.green-color {
+    background-color: #a5d1a5;
+}
+.light-sky{
+    background-color: #97e4f0;
+}
+.light-red{
+    background-color: #e37764;
+}
+.light-purple{
+    background-color: #bc6fd1;
+}

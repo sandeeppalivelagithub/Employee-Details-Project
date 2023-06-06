@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.app-container{
+    height: 100vh;
+    overflow: auto;
+    padding: 30px 60px 30px 60px;
+  
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    font-size: 36px;
+   
+    color: #532854;
+    font-family: 'Open Sans';
+  
+}
+.input-field{
+    border: #6b676b solid 1px;
+    display: flex;
+    
+    justify-content: space-between;
+    width: 30%;
+    max-width: 400px;
+    border-radius: 5px;
+    align-items: center;
+   
+}
+.search-add-container{
+    display: flex;
+    align-items: center;
+}
+
+.search-input{
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    padding: 3px;
+    flex-grow: 1;
+    font-size: 18px;
+    padding: 5px;
+
+    background-color: transparent;
+  
+}
+.employeeDetail-card-container{
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    
+    
+    padding-left: 0;
+    flex-wrap: wrap;
+    border-radius: 12px;
+}
+
